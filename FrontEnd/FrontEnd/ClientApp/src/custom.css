@@ -1,0 +1,262 @@
+
+#root{
+  background: url('../public/images/HaLong.webp');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100vw;
+  height: 100vh;
+}
+
+/* HomePage */
+.ui.page.modals.dimmer.transition.visible.active {
+  flex-direction: row-reverse;
+  margin: 0;
+  padding: 0;
+}
+
+.ui.scrolling.modal.transition.visible.active.details-modal.full-heigh {
+  padding: 0;
+  margin: 0;
+  height: 100vh;
+  width: 500px;
+  position: relative;
+}
+
+button.ui.button.todo-name {
+  background: none;
+}
+button.ui.button.button-create-todo {
+  background: none;
+  color: deepskyblue;
+  border: 2px solid;
+}
+button.ui.button.button-create-todo:hover {
+  background-color: #54c8ff;
+  color: white;
+  border-radius: 7px;
+}
+.ui.label {
+  background: none !important;
+}
+
+button.ui.button.update {
+  color: white;
+  background: green;
+}
+
+button.ui.button.delete {
+  color: white;
+  background: red;
+}
+
+button.ui.button.close {
+  color: white;
+  background: black;
+}
+
+table.ui.celled.table {
+  overflow: auto;
+  height: 90vh;
+}
+
+table.ui.celled.table {
+  text-align: center;
+}
+
+.header-table {
+  position: sticky;
+  top: 0;
+}
+
+.menu {
+  background: #B0E0E6 !important;
+  width: 300px;
+}
+
+.menu1 {
+  background: #B0E0E6 !important;
+  width: 400px;
+}
+
+thead,
+tbody,
+tfoot,
+tr,
+td,
+th {
+  border: 0.5px solid #63B8FF !important;
+}
+/* Todo Model */
+
+/* Create Todo */
+.ui.scrolling.modal.transition.visible.active.create-todo {
+  margin: 0;
+  padding: 0;
+  position: relative;
+  height: 100vh;
+  width: 100vw;
+}
+
+.header {
+  color: red !important;
+  text-align: center;
+  font-size: 35px !important;
+}
+
+button.ui.button.create {
+  background: lawngreen;
+}
+
+.actions {
+  text-align: center !important;
+}
+
+/* Category Button */
+.ui.scrolling.modal.transition.visible.active.create-category {
+  margin: 0;
+  padding: 0;
+  position: relative;
+  height: 100vh;
+  width: 100vw;
+}
+
+/* TodoPage */
+.table-todo {
+  width: 300px;
+}
+
+.table-todo1 {
+  width: 1000px;
+}
+
+.menu-todo {
+  width: 1300px;
+  background: none !important;
+}
+
+button.ui.button.save-todo {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  height: 36px;
+  width: 116px;
+  color: white;
+  background: none;
+}
+
+.ui.pointing.secondary.menu-todo.menu {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+}
+
+.detaile-todo {
+  height: 100vh !important;
+}
+
+tbody {
+  height: 90vh;
+}
+
+td.collapsing {
+  width: 500px !important;
+}
+
+td {
+  width: 800px;
+}
+
+table.ui.celled.table-todo {
+  overflow: auto;
+  height: 90vh;
+}
+
+.block {
+  display: block;
+}
+
+.contain {
+  height: 100vh;
+  max-height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+
+.action-category {
+  margin-bottom: 15px;
+  display: flex;
+  padding-top: 15px;
+}
+
+button.ui.button.add-category {
+  background: greenyellow;
+}
+
+button.ui.button.add-element {
+  background: greenyellow;
+}
+
+.ui.fluid.selection.dropdown {
+  width: 30vw;
+}
+
+.ui.scrolling.modal.transition.visible.active.create-category {
+  width: 32%;
+}
+
+.ui.scrolling.modal.transition.visible.active.create-element {
+  margin: 0;
+  padding: 0;
+  width: 32vw;
+  position: relative;
+}
+
+.contents {
+  padding: 20px;
+  width: 31vw;
+}
+
+table.ui.table.show-category {
+  display: flex;
+  flex-direction: row;
+}
+
+.boder-category {
+  padding: 10px;
+  width: 95%;
+}
+
+button.ui.button.show-button {
+  display: none;
+  margin: 0;
+  padding: 10px;
+  background: red;
+}
+
+table.ui.table.show-category:hover button {
+  display: inline-block;
+}
+
+table.ui.table.table-category {
+  width: 20vw;
+  height: 90vh;
+  background: transparent;
+}
+
+.name-details {
+  width: 20vw;
+}
+.name-details-ele {
+  width: 50vw;
+}
+
+.table-category-element {
+  display: flex;
+  flex-direction: row;
+}
+
+table.ui.table.table-element {
+  height: 90vh;
+  background: transparent;
+  width: 50vw;
+}

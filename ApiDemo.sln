@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32929.385
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ApiDemo", "ApiDemo\ApiDemo.csproj", "{4672AD26-F8BD-4FD0-A8D4-B5206FB29C67}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FrontEnd", "FrontEnd\FrontEnd\FrontEnd.csproj", "{42CC3E41-F3FB-408A-9326-2D81D7128050}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4672AD26-F8BD-4FD0-A8D4-B5206FB29C67}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4672AD26-F8BD-4FD0-A8D4-B5206FB29C67}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4672AD26-F8BD-4FD0-A8D4-B5206FB29C67}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4672AD26-F8BD-4FD0-A8D4-B5206FB29C67}.Release|Any CPU.Build.0 = Release|Any CPU
+		{42CC3E41-F3FB-408A-9326-2D81D7128050}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{42CC3E41-F3FB-408A-9326-2D81D7128050}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{42CC3E41-F3FB-408A-9326-2D81D7128050}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{42CC3E41-F3FB-408A-9326-2D81D7128050}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {03FE1D3C-88A3-40DB-997D-7AE744B9BE88}
+	EndGlobalSection
+EndGlobal

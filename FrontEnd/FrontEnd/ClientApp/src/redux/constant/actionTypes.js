@@ -1,0 +1,21 @@
+export const GET_TODO = 'GET_TODO'
+export const GET_TODO_BYID = 'GET_TODO_BYID'
+export const ADD_TODO = 'ADD_TODO'
+export const DELETE_TODO = 'DELETE_TODO'
+export const UPDATE_TODO = 'UPDATE_TODO'
+
+
+export const GET_CATEGORY = 'GET_CATEGORY'
+export const GET_CATEGORY_BY_TODOID = 'GET_CATEGORY_BY_TODOID'
+export const ADD_CATEGORY = 'ADD_CATEGORY'
+export const DELETE_CATEGORY = 'DELETE_CATEGORY'
+
+
+export const GET_ELEMENT = 'GET_ELEMENT'
+export const GET_ELEMENT_BY_TODOID = 'GET_ELEMENT_BY_TODOID'
+export const ADD_ELEMENT = 'ADD_ELEMENT'
+export const DELETE_ELEMENT = 'DELETE_ELEMENT'
+
+
+
+
